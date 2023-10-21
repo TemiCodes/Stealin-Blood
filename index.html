@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Blood Steal
+        </title>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="style.css">
+         <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+    </head>
+    <body>
+        <center>
+            <h1>
+                BLOOD STEALER
+            </h1>
+            <h4 id="enemyhp">
+                EnemyHP: 100
+            </h4>
+            <h3 id="bloodtaken">
+                Blood Taken: 0
+            </h3>
+            <h3 id="livestaken">
+                Lives Taken: 0
+            </h3>
+            <button onclick="givemeablood()" class="btn btn-success">
+                Stab Monster
+            </button>
+            
+
+        </center>
+        <div id="green">
+            <h5>Regular Upgrades</h5>
+            <h5 id="costlabel">Costs: 15</h5>
+            <button onclick="upgradeblood(1)" class="btn btn-info">Upgrade Weapon</button>
+        </div>
+        <div id="blue">
+            <h5>Rituals</h5>
+            <h5 id="costlabel2">Costs: 2000</h5>
+            <button onclick="transform()" class="btn btn-info">Transformation Ritual</button>
+        </div>
+    </body>
+</html>
